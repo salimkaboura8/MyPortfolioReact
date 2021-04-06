@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+/*********************** NAVBAR *************************/
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+.navbar {
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar .collapse .nav-item{
+  margin-left: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar .collapse .btn{
+  background: linear-gradient(to bottom, #ffd905, #ff9100);;
+  width: 100px;
   color: white;
+  font-size: 12px;
+  border-radius: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar .navbar-brand{
+  font-size: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*********************** HEADER *************************/
+
