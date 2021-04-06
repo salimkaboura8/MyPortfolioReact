@@ -2,8 +2,8 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <div>
-            <div className="header-wrapper">
+        <div className="header-wrapper" >
+            <div className="header-text">
                 <h1>Hey! I am Salim Kaboura</h1>
                 <a>A crime against their history"? "White flag of surrender"?
                     Or a pragmatic selection at a difficult time? 

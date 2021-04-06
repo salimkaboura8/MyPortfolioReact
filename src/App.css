@@ -16,7 +16,7 @@
 
 .navbar .collapse .btn{
   background: linear-gradient(to bottom, #ffd905, #ff9100);;
-  width: 100px;
+  width: 150%;
   color: white;
   font-size: 12px;
   border-radius: 50px;
@@ -26,5 +26,21 @@
   font-size: 20px;
 }
 
+.navbar .collapse .active{
+  text-emphasis-color: green;
+}
+
 /*********************** HEADER *************************/
 
+.header-wrapper {
+  font-family: 'RocknRoll One', sans-serif;
+  height: 500px;
+  width: auto;
+  background-image: url("developerbg.png");
+}
+
+.header-wrapper .header-text {
+  width: 60%;
+  padding-top: 100px;
+  padding-left: 100px;
+}
