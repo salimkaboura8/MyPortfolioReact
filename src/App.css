@@ -15,11 +15,24 @@
 }
 
 .navbar .collapse .btn {
-  background: linear-gradient(to bottom, #ffd905, #ff9100);
-  width: 150%;
-  color: white;
-  font-size: 12px;
-  border-radius: 50px;
+  box-shadow: 1px 19px 35px -11px #ffcc00;
+  background: linear-gradient(to bottom, #ffcc00 5%, #ff8400 100%);
+  background-color: #ffcc00;
+  border-radius: 36px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 8px 26px;
+  text-decoration: none;
+}
+.navbar .collapse .btn:hover {
+  background: linear-gradient(to bottom, #ff8400 5%, #ffcc00 100%);
+  background-color: #ff8400;
+}
+.navbar .collapse .btn:active {
+  position: relative;
+  top: 1px;
 }
 
 .navbar .navbar-brand {

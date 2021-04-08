@@ -1,10 +1,10 @@
 import React from "react";
 
-const Header = () => {
+const Aboutme = () => {
   return (
     <div className="header-wrapper">
       <div className="header-text">
-        <h1>Hey! I am Salim Kaboura</h1>
+        <h1>This is about me Section</h1>
         <p>
           A crime against their history"? "White flag of surrender"? Or a
           pragmatic selection at a difficult time? Ahead of #RMALIV, a look back
@@ -16,4 +16,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Aboutme;

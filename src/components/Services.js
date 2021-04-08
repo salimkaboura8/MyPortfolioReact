@@ -6,10 +6,10 @@ const Services = () => {
       <div className="services-text">
         <h1 className="myawesome">My awesome</h1>
         <h1 className="services">services</h1>
-        <a>
+        <p>
           A crime against their history"? "White flag of surrender"? Or a
           pragmatic selection at a difficult time? Ahead of #RMALIV
-        </a>
+        </p>
       </div>
     </div>
   );
