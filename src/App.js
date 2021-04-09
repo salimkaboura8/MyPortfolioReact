@@ -11,7 +11,6 @@ function App() {
   return (
     <Router>
       <Navbar />
-
       <Route path="/" exact component={Header} />
       <Route path="/Portfolio" exact component={Portfolio} />
       <Route path="/Services" exact component={Services} />

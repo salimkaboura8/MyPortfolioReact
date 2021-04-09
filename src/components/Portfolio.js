@@ -85,4 +85,5 @@ export const Portfolio = () => {
       />
     </animated.div>
   ));
+  render(<Portfolio />, document.getElementById("root"));
 };

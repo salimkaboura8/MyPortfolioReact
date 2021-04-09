@@ -49,7 +49,7 @@
   font-family: "RocknRoll One", sans-serif;
   height: 500px;
   width: auto;
-  background-image: url("developerbg.png");
+  background: linear-gradient(90deg, #000000 35%, #181823 35%);
 }
 
 .header-wrapper .header-text {
