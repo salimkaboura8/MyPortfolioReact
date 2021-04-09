@@ -209,11 +209,39 @@ img {
 .services-wrapper {
   font-family: "RocknRoll One", sans-serif;
   height: 600px;
-  padding-left: 8%;
+  padding-top: 5%;
   width: auto;
-  background-image: url("bg2.png");
+  background-color: black;
 }
 
 .services-text {
-  width: 40%;
+  font-family: "Catamaran", sans-serif;
+  color: white;
+  width: 50%;
+}
+
+.services-wrapper .textone {
+  font-family: "Catamaran", sans-serif;
+  font-size: 45px;
+  color: white;
+}
+
+.services-wrapper .texttwo {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 20%;
+  font-size: 18px;
+  color: rgb(94, 94, 94);
+}
+
+.services-wrapper .textonesm {
+  font-family: "Catamaran", sans-serif;
+  font-size: 25px;
+  color: white;
+}
+
+.services-wrapper .texttwosm {
+  font-family: "Catamaran", sans-serif;
+  font-weight: 20%;
+  font-size: 16px;
+  color: rgb(94, 94, 94);
 }

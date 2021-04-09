@@ -1,15 +1,53 @@
 import React from "react";
+import laptopLogo from "../images/laptop.png";
+import logoLogo from "../images/logo.png";
+import mobileLogo from "../images/mobile.png";
+import paintingLogo from "../images/paint.png";
 
 const Services = () => {
   return (
-    <div className="services-wrapper">
-      <div className="services-text">
-        <h1 className="myawesome">My awesome</h1>
-        <h1 className="services">services</h1>
-        <p>
-          A crime against their history"? "White flag of surrender"? Or a
-          pragmatic selection at a difficult time? Ahead of #RMALIV
-        </p>
+    <div class="services-wrapper container">
+      <div class="row">
+        <div class="col-sm">
+          <h1 className="textone xs">My Services</h1>
+          <p className="texttwo">
+            With skills in over 4 different fields of design, I am the perfect
+            person to hire when it comes to a full fledged project. Whatever
+            your needs are, I can pretty much take on any challenge.
+          </p>
+        </div>
+        <div class="col-sm">
+          <img class="laptopLogo xs" src={laptopLogo} />
+          <h1 className="textonesm">Website Development</h1>
+          <p className="texttwosm">
+            With skills in over 4 different fields of design, I am the perfect
+            person to hire when it comes to a full fledged project. Whatever
+            your needs are, I can pretty much take on any challenge.
+          </p>
+          <img class="laptopLogo" height="20%" src={mobileLogo} />
+          <h1 className="textonesm">Mobile Development</h1>
+          <p className="texttwosm">
+            With skills in over 4 different fields of design, I am the perfect
+            person to hire when it comes to a full fledged project. Whatever
+            your needs are, I can pretty much take on any challenge.
+          </p>
+        </div>
+        <div class="col-sm">
+          <img class="laptopLogo" height="20%" src={paintingLogo} />
+          <h1 className="textonesm">Graphic Design</h1>
+          <p className="texttwosm">
+            With skills in over 4 different fields of design, I am the perfect
+            person to hire when it comes to a full fledged project. Whatever
+            your needs are, I can pretty much take on any challenge.
+          </p>
+          <img class="laptopLogo" height="20%" src={logoLogo} />
+          <h1 className="textonesm">Logo Design</h1>
+          <p className="texttwosm">
+            With skills in over 4 different fields of design, I am the perfect
+            person to hire when it comes to a full fledged project. Whatever
+            your needs are, I can pretty much take on any challenge.
+          </p>
+        </div>
       </div>
     </div>
   );
