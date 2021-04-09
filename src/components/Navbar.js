@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg">
       <p className="navbar-brand" href="#">
-        Salim Kaboura
+        Salim K.
       </p>
       <button
         className="navbar-toggler"

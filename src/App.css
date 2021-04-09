@@ -1,22 +1,31 @@
 /*********************** NAVBAR *************************/
 
-@import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inter:wght@200;300&display=swap");
 
 body {
   background: linear-gradient(90deg, #000000 35%, #181823 35%);
 }
 
 .navbar {
-  font-family: "RocknRoll One", sans-serif;
-  font-size: 12px;
+  font-family: "Catamaran", sans-serif;
+  font-size: 18px;
   margin-top: 20px;
   margin-right: 100px;
   margin-left: 100px;
   background-color: transparent;
 }
 
+.navbar .navbar-brand {
+  color: white;
+  font-size: 30px;
+  font-family: "Caveat", cursive;
+}
+
 .navbar .collapse .navbar-nav .nav-item {
   color: white;
+
   margin-left: 30px;
 }
 
@@ -41,10 +50,6 @@ body {
   top: 1px;
 }
 
-.navbar .navbar-brand {
-  font-size: 20px;
-}
-
 .navbar .collapse .active {
   text-emphasis-color: green;
 }
@@ -52,15 +57,37 @@ body {
 /*********************** HEADER *************************/
 
 .header-wrapper {
-  font-family: "RocknRoll One", sans-serif;
   height: 500px;
+  padding-top: 7%;
+  padding-right: 4%;
   width: auto;
 }
 
+.header-wrapper .pinkimage {
+  height: 40%;
+  width: 40%;
+  margin-left: -10%;
+  margin-top: 20%;
+  transform: rotate(110deg);
+}
+
 .header-wrapper .header-text {
-  width: 60%;
-  padding-top: 100px;
-  padding-left: 100px;
+  font-family: "Catamaran", sans-serif;
+  color: white;
+  padding-left: 30%;
+}
+.header-wrapper .header-text .white-title {
+  font-size: 60px;
+}
+.header-wrapper .header-text .pink-title {
+  color: #ff003d;
+  font-size: 50px;
+}
+.header-wrapper .header-text .small-text {
+  font-family: "Inter", sans-serif;
+  padding-top: 5%;
+  font-size: 14px;
+  padding-left: 30%;
 }
 
 .slider {
