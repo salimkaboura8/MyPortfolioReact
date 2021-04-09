@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a className="navbar-brand" href="#">
+    <nav className="navbar navbar-expand-lg">
+      <p className="navbar-brand" href="#">
         Salim Kaboura
-      </a>
+      </p>
       <button
         className="navbar-toggler"
         type="button"
@@ -23,31 +23,35 @@ const Navbar = () => {
         <ul className="navbar-nav ml-auto">
           <Link to="/">
             <li className="nav-item active">
-              <a className="nav-link">
+              <p className="nav-link">
                 Home <span className="sr-only">(current)</span>
-              </a>
-            </li>
-          </Link>
-          <Link to="/Portfolio">
-            <li className="nav-item">
-              <a className="nav-link">Portfolio</a>
+              </p>
             </li>
           </Link>
           <Link to="/Services">
             <li className="nav-item">
-              <a className="nav-link">Services</a>
+              <p className="nav-link">Services</p>
+            </li>
+          </Link>
+          <Link to="/Skills">
+            <li className="nav-item">
+              <p className="nav-link">Skills</p>
+            </li>
+          </Link>
+          <Link to="/Portfolio">
+            <li className="nav-item">
+              <p className="nav-link">Portfolio</p>
+            </li>
+          </Link>
+
+          <Link to="/Aboutme">
+            <li className="nav-item">
+              <p className="nav-link">About</p>
             </li>
           </Link>
           <Link to="/Aboutme">
             <li className="nav-item">
-              <a className="nav-link">About Me</a>
-            </li>
-          </Link>
-          <Link to="/Portfolio">
-            <li className="nav-item contactbtn">
-              <button type="button" class="btn">
-                Contact
-              </button>
+              <p className="nav-link">Contact</p>
             </li>
           </Link>
         </ul>

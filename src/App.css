@@ -2,15 +2,21 @@
 
 @import url("https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap");
 
+body {
+  background: linear-gradient(90deg, #000000 35%, #181823 35%);
+}
+
 .navbar {
   font-family: "RocknRoll One", sans-serif;
   font-size: 12px;
   margin-top: 20px;
   margin-right: 100px;
   margin-left: 100px;
+  background-color: transparent;
 }
 
-.navbar .collapse .nav-item {
+.navbar .collapse .navbar-nav .nav-item {
+  color: white;
   margin-left: 30px;
 }
 
@@ -49,7 +55,6 @@
   font-family: "RocknRoll One", sans-serif;
   height: 500px;
   width: auto;
-  background: linear-gradient(90deg, #000000 35%, #181823 35%);
 }
 
 .header-wrapper .header-text {
