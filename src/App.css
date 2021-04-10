@@ -208,16 +208,13 @@ img {
 
 .services-wrapper {
   font-family: "RocknRoll One", sans-serif;
+  display: inline-block;
+  vertical-align: auto;
   height: 600px;
   padding-top: 5%;
+  padding: 6%;
   width: auto;
   background-color: black;
-}
-
-.services-text {
-  font-family: "Catamaran", sans-serif;
-  color: white;
-  width: 50%;
 }
 
 .services-wrapper .textone {
@@ -237,11 +234,27 @@ img {
   font-family: "Catamaran", sans-serif;
   font-size: 25px;
   color: white;
+  display: block;
+  padding-left: 6%;
 }
 
 .services-wrapper .texttwosm {
   font-family: "Catamaran", sans-serif;
   font-weight: 20%;
   font-size: 16px;
+  padding-left: 6%;
   color: rgb(94, 94, 94);
+}
+.services-wrapper .myimg {
+  visibility: hidden;
+}
+
+.services-wrapper .laptopLogo {
+  top: 140px;
+  left: 342px;
+}
+
+.services-wrapper .paintingLogo {
+  width: 6%;
+  height: 6%;
 }
