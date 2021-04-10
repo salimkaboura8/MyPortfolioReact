@@ -11,10 +11,11 @@ body {
 .navbar {
   font-family: "Catamaran", sans-serif;
   font-size: 18px;
-  margin-top: 20px;
-  margin-right: 100px;
   margin-left: 100px;
   background-color: transparent;
+  position: sticky;
+  top: 5px;
+  background-color: black;
 }
 
 .navbar .navbar-brand {
@@ -25,8 +26,8 @@ body {
 
 .navbar .collapse .navbar-nav .nav-item {
   color: white;
-
-  margin-left: 30px;
+  font-size: 14px;
+  margin-right: 50px;
 }
 
 .navbar .collapse .btn {
@@ -207,14 +208,19 @@ img {
 /*********************** SERVICES *******************************/
 
 .services-wrapper {
-  font-family: "RocknRoll One", sans-serif;
   display: inline-block;
-  vertical-align: auto;
   height: 600px;
   padding-top: 5%;
   padding: 6%;
   width: auto;
   background-color: black;
+}
+
+.services-wrapper .stackcol {
+  display: inline-block;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 5%;
 }
 
 .services-wrapper .textone {
@@ -228,6 +234,7 @@ img {
   font-weight: 20%;
   font-size: 18px;
   color: rgb(94, 94, 94);
+  padding-right: 10%;
 }
 
 .services-wrapper .textonesm {
@@ -235,26 +242,18 @@ img {
   font-size: 25px;
   color: white;
   display: block;
-  padding-left: 6%;
+  padding-top: 4%;
 }
 
 .services-wrapper .texttwosm {
   font-family: "Catamaran", sans-serif;
   font-weight: 20%;
-  font-size: 16px;
-  padding-left: 6%;
+  font-size: 14px;
   color: rgb(94, 94, 94);
 }
 .services-wrapper .myimg {
-  visibility: hidden;
-}
-
-.services-wrapper .laptopLogo {
-  top: 140px;
-  left: 342px;
-}
-
-.services-wrapper .paintingLogo {
-  width: 6%;
-  height: 6%;
+  display: inline-block;
+  position: relative;
+  height: 8%;
+  width: 8%;
 }

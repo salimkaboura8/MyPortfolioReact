@@ -1,8 +1,8 @@
 import React from "react";
-import laptopLogo from "../images/laptop.png";
-import logoLogo from "../images/logo.png";
-import mobileLogo from "../images/mobile.png";
-import paintingLogo from "../images/paint.png";
+import laptopLogo from "../images/laptop.svg";
+import logoLogo from "../images/logo.svg";
+import mobileLogo from "../images/smartphone.svg";
+import paintingLogo from "../images/painting.svg";
 
 const Services = () => {
   return (
@@ -16,7 +16,7 @@ const Services = () => {
             your needs are, I can pretty much take on any challenge.
           </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 stackcol">
           <img class="myimg laptopLogo" src={laptopLogo} />
           <h1 className="textonesm">Website Development</h1>
           <p className="texttwosm">
@@ -32,7 +32,7 @@ const Services = () => {
             your needs are, I can pretty much take on any challenge.
           </p>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 stackcol">
           <img class="myimg mobileLogo" src={mobileLogo} />
           <h1 className="textonesm">Mobile Development</h1>
           <p className="texttwosm">
