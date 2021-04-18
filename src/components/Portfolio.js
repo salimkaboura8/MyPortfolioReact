@@ -41,13 +41,9 @@ const Portfolio = () => {
             <li class="list-group-item border-0">Logos</li>
             <li class="list-group-item border-0">Graphic Design</li>
             <li class="list-group-item border-0">
-              <Link to="/Portfolio">
+              <Link to="/Skills">
                 <Fab className="fab">
-                  <img
-                    className="arrow"
-                    src={arrowIcon}
-                    alt="Girl in a jacket"
-                  ></img>
+                  <img className="arrow" src={arrowIcon}></img>
                 </Fab>
               </Link>
             </li>
