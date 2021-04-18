@@ -187,27 +187,32 @@ img {
 
 /*********************** PORTFOLIO *************************/
 
-.portfolio {
-  font-family: "RocknRoll One", sans-serif;
-  height: 600px;
-  width: auto;
-  background-image: url("bg2.png");
+.portfolio-container {
+  background-color: black;
+  font-family: "Italiana", serif;
 }
 
-.portfolio .portfolio-text h1 {
-  width: 50%;
-  padding-left: 100px;
+.portfolio-container .list-group-item {
+  color: white;
+  font-size: 20px;
+  background-color: black;
 }
 
-.portfolio .portfolio-text .slider {
-  width: 100%;
-  padding-top: 50px;
-  padding-left: 100px;
+.portfolio-container .fab {
+  margin: 40%;
 }
 
-.portfolio .portfolio-text .slider .slide-item {
-  width: 90%;
-  background-image: url("cooltodo.png");
+.portfolio-container .arrow {
+  padding: 25%;
+}
+
+.portfolio-container .grid {
+  padding-top: 2%;
+  padding-left: 12%;
+}
+
+.portfolio-container .col-sm {
+  height: 200px;
 }
 
 /*********************** SERVICES *******************************/
@@ -247,7 +252,7 @@ img {
 }
 
 .services-container .fab {
-  margin: 30%;
+  margin: 50%;
 }
 
 .services-container .arrow {
