@@ -322,3 +322,37 @@ img {
 .about-container .arrow {
   padding: 25%;
 }
+
+/********************* Contact ************************/
+
+.contact-container {
+  height: 500px;
+  padding-top: 6%;
+  padding-right: 4%;
+  padding-left: 18%;
+  display: block;
+  background-color: black;
+  color: white;
+  width: auto;
+}
+.contact-container h1 {
+  font-family: "Italiana", serif;
+  font-size: 60px;
+  padding-bottom: 2%;
+}
+
+.contact-container h2 {
+  font-family: "Sura", serif;
+  font-size: 36px;
+  padding-bottom: 6%;
+}
+
+.contact-container img {
+  height: 70px;
+  width: 70px;
+}
+
+.contact-container .icons {
+  padding-left: 25%;
+  height: 200px;
+}

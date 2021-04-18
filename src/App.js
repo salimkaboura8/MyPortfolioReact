@@ -6,6 +6,8 @@ import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 import About from "./components/About";
+import Contact from "./components/Contact";
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
@@ -18,6 +20,7 @@ function App() {
         <Route path="/Portfolio" exact component={Portfolio} />
         <Route path="/Skills" exact component={Skills} />
         <Route path="/About" exact component={About} />
+        <Route path="/Contact" exact component={Contact} />
       </div>
     </Router>
   );
