@@ -191,6 +191,7 @@ img {
 .portfolio-container {
   background-color: black;
   font-family: "Italiana", serif;
+  padding-right: 2%;
 }
 
 .portfolio-container .list-group-item {
@@ -200,7 +201,8 @@ img {
 }
 
 .portfolio-container .fab {
-  margin: 40%;
+  margin-top: 40%;
+  margin-left: 40%;
 }
 
 .portfolio-container .arrow {
@@ -236,9 +238,15 @@ img {
 .services-container .graphicdesign {
   padding-left: 10%;
   padding-top: 4%;
+  height: max-content;
+}
+
+.services-container .webdev {
+  height: max-content;
+  padding-left: 3%;
 }
 .services-container .logodesign {
-  padding-top: 2%;
+  padding-top: 3%;
 }
 
 .services-container h1 {
@@ -252,8 +260,13 @@ img {
   margin-right: 15%;
 }
 
+.services-container .row {
+  height: max-content;
+}
+
 .services-container .fab {
-  margin: 50%;
+  margin-top: 50%;
+  margin-left: 50%;
 }
 
 .services-container .arrow {
@@ -268,9 +281,9 @@ img {
   color: white;
   background-color: black;
   font-family: "BioRhyme", serif;
+  padding-right: 2%;
   font-size: 25px;
 }
-
 .skills-container .myservices {
   font-family: "Italiana", serif;
   font-size: 46px;

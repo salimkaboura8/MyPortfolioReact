@@ -26,7 +26,7 @@ const Services = () => {
         </div>
       </div>
       <div class="row">
-        <div class="col-sm">
+        <div class="col-sm webdev">
           <h1 className="textonesm">Website Development</h1>
           <p>
             With skills in over 4 different fields of design, I am the perfect

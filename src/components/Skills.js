@@ -246,7 +246,7 @@ const Skills = () => {
                     <line
                       x1="0"
                       y1="20"
-                      x2="120"
+                      x2="100"
                       y2="20"
                       stroke="#FF5045"
                       stroke-width="5"
