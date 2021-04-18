@@ -5,7 +5,7 @@ import Home from "./components/Home";
 import Skills from "./components/Skills";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
-import Aboutme from "./components/Aboutme";
+import About from "./components/About";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         <Route path="/Services" exact component={Services} />
         <Route path="/Portfolio" exact component={Portfolio} />
         <Route path="/Skills" exact component={Skills} />
-        <Route path="/Aboutme" exact component={Aboutme} />
+        <Route path="/About" exact component={About} />
       </div>
     </Router>
   );
