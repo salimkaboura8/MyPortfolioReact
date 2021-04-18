@@ -1,6 +1,7 @@
 import React from "react";
 import { Fab } from "@material-ui/core";
 import arrowIcon from "../images/arrow.svg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -17,10 +18,11 @@ const Home = () => {
           freelancing. Welcome to my personal website where you discover my
           skills and the services I offer!
         </p>
-
-        <Fab className="fab">
-          <img className="arrow" src={arrowIcon} alt="Girl in a jacket"></img>
-        </Fab>
+        <Link to="/Services">
+          <Fab className="fab">
+            <img className="arrow" src={arrowIcon} alt="Girl in a jacket"></img>
+          </Fab>
+        </Link>
       </div>
     </div>
   );
