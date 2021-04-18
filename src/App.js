@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar";
-import Header from "./components/Header";
+import Home from "./components/Home";
 import { Portfolio } from "./components/Portfolio";
 import Services from "./components/Services";
 import Aboutme from "./components/Aboutme";
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <Route path="/" exact component={Header} />
+        <Route path="/" exact component={Home} />
         <Route path="/Portfolio" exact component={Portfolio} />
         <Route path="/Services" exact component={Services} />
         <Route path="/Aboutme" exact component={Aboutme} />

@@ -1,32 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=BioRhyme+Expanded&family=Italiana&family=Molengo&family=Sura&display=swap");
 /*********************** NAVBAR *************************/
 
-@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Inter:wght@500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Inter:wght@200;300&display=swap");
-
-body {
-  background: linear-gradient(90deg, #000000 35%, #181823 35%);
+html {
+  background-color: black;
 }
 
 .navbar {
-  font-family: "Catamaran", sans-serif;
-  font-size: 18px;
-  margin-left: 100px;
-  background-color: transparent;
-  position: sticky;
-  top: 5px;
+  font-family: "Molengo", sans-serif;
+  padding-left: 100px;
   background-color: black;
+  position: sticky;
+  padding-top: 5px;
 }
 
 .navbar .navbar-brand {
   color: white;
   font-size: 30px;
-  font-family: "Caveat", cursive;
+  padding-left: 5%;
 }
 
 .navbar .collapse .navbar-nav .nav-item {
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   margin-right: 50px;
 }
 
@@ -54,13 +49,23 @@ body {
 .navbar .collapse .active {
   text-emphasis-color: green;
 }
+/*********************** FAB *************************/
+
+.header-wrapper .header-text .fab {
+  background-color: white;
+  margin-left: 80%;
+}
+.header-wrapper .header-text .arrow {
+  padding: 25%;
+}
 
 /*********************** HEADER *************************/
 
 .header-wrapper {
   height: 500px;
-  padding-top: 7%;
+  padding-top: 5%;
   padding-right: 4%;
+  background-color: black;
   width: auto;
 }
 
@@ -73,22 +78,23 @@ body {
 }
 
 .header-wrapper .header-text {
-  font-family: "Catamaran", sans-serif;
   color: white;
-  padding-left: 30%;
+  padding-left: 15%;
 }
-.header-wrapper .header-text .white-title {
+.header-wrapper .header-text .name-title {
+  font-family: "BioRhyme Expanded", serif;
   font-size: 60px;
 }
-.header-wrapper .header-text .pink-title {
-  color: #ff003d;
+.header-wrapper .header-text .job-title {
+  font-family: "Italiana", serif;
   font-size: 50px;
 }
 .header-wrapper .header-text .small-text {
-  font-family: "Inter", sans-serif;
+  font-family: "Sura", serif;
   padding-top: 5%;
-  font-size: 14px;
-  padding-left: 30%;
+  font-size: 20px;
+  padding-left: 25%;
+  padding-right: 26%;
 }
 
 .slider {
@@ -211,7 +217,7 @@ img {
   display: inline-block;
   height: 600px;
   padding-top: 5%;
-  padding: 6%;
+  padding: 5%;
   width: auto;
   background-color: black;
 }
