@@ -12,24 +12,24 @@ const Portfolio = () => {
           <div class="grid">
             <div class="row">
               <div class="col-sm">
-                <img src={concerto} />
+                <img src={concerto} alt="Swiping Arrow" />
               </div>
               <div class="col-sm">
-                <img src={concerto} />
+                <img src={concerto} alt="Swiping Arrow" />
               </div>
               <div class="col-sm">
-                <img src={concerto} />
+                <img src={concerto} alt="Swiping Arrow" />
               </div>
             </div>
             <div class="row">
               <div class="col-sm">
-                <img src={concerto} />
+                <img src={concerto} alt="Swiping Arrow" />
               </div>
               <div class="col-sm">
-                <img src={concerto} />
+                <img src={concerto} alt="Swiping Arrow" />
               </div>
               <div class="col-sm">
-                <img src={concerto} />
+                <img src={concerto} alt="Swiping Arrow" />
               </div>
             </div>
           </div>
@@ -43,7 +43,11 @@ const Portfolio = () => {
             <li class="list-group-item border-0">
               <Link to="/Skills">
                 <Fab className="fab">
-                  <img className="arrow" src={arrowIcon}></img>
+                  <img
+                    className="arrow"
+                    src={arrowIcon}
+                    alt="Swiping Arrow"
+                  ></img>
                 </Fab>
               </Link>
             </li>

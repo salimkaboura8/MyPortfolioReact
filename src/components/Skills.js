@@ -24,7 +24,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -47,7 +47,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -73,7 +73,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -96,7 +96,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -123,7 +123,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -146,7 +146,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -171,7 +171,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -194,7 +194,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -219,7 +219,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -242,7 +242,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -269,7 +269,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -292,7 +292,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -317,7 +317,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -340,7 +340,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -365,7 +365,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -388,7 +388,7 @@ const Skills = () => {
                       stroke-width="5"
                     />
                   </svg>
-                  <svg>
+                  <svg id="skillsline">
                     <line
                       x1="0"
                       y1="20"
@@ -406,7 +406,7 @@ const Skills = () => {
         <div class="col-2">
           <Link to="/About">
             <Fab className="fab">
-              <img className="arrow" src={arrowIcon}></img>
+              <img className="arrow" src={arrowIcon} alt="Swiping Arrow"></img>
             </Fab>
           </Link>
         </div>

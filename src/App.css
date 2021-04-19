@@ -88,14 +88,13 @@ body {
 .header-wrapper h1 {
   font-family: "BioRhyme Expanded", serif;
   font-size: 60px;
-  border-right: 2px solid white;
   width: max-content;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
 
-  animation: typewriter 1s steps(16), blinkTextCursor 1s step-end infinite;
+  animation: typewriter 1s steps(16);
 }
 
 @keyframes typewriter {
@@ -326,6 +325,18 @@ img {
 .skills-container .lines {
   padding-bottom: 15%;
 }
+#skillsline {
+  animation: linefill 3s;
+}
+
+@keyframes linefill {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
 .skills-container .fab {
   margin-top: 220%;
   margin-left: 60%;
@@ -393,6 +404,11 @@ img {
 .contact-container img {
   height: 70px;
   width: 70px;
+}
+
+.contact-container a:hover {
+  width: 140px;
+  height: 70px;
 }
 
 .contact-container .icons {

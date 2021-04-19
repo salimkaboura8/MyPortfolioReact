@@ -45,11 +45,7 @@ const Services = () => {
         <div class="col-sm">
           <Link to="/Portfolio">
             <Fab className="fab">
-              <img
-                className="arrow"
-                src={arrowIcon}
-                alt="Girl in a jacket"
-              ></img>
+              <img className="arrow" src={arrowIcon} alt="Swiping Arrow"></img>
             </Fab>
           </Link>
         </div>

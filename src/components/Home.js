@@ -20,7 +20,7 @@ const Home = () => {
         </p>
         <Link to="/Services">
           <Fab className="fab">
-            <img className="arrow" src={arrowIcon} alt="Girl in a jacket"></img>
+            <img className="arrow" src={arrowIcon} alt="Swiping Arrow"></img>
           </Fab>
         </Link>
       </div>
