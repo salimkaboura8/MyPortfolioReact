@@ -95,7 +95,7 @@ body {
   overflow: hidden;
   display: inline-block;
 
-  animation: typewriter 1s steps(16);
+  animation: typewriter 1s steps(16), blinkTextCursor 1s step-end infinite;
 }
 
 @keyframes typewriter {
@@ -108,11 +108,12 @@ body {
 }
 
 @keyframes blinkTextCursor {
-  from {
-    border-right-color: green;
-  }
+  from,
   to {
-    border-right-color: transparent;
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
   }
 }
 .header-wrapper h2 {
