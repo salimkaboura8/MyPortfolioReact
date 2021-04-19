@@ -6,6 +6,9 @@ html {
   background-color: black;
 }
 
+body {
+  background-color: black;
+}
 .navbar {
   font-family: "Molengo", sans-serif;
   padding-left: 100px;
@@ -82,11 +85,37 @@ html {
   color: white;
   padding-left: 15%;
 }
-.header-wrapper .header-text .name-title {
+.header-wrapper h1 {
   font-family: "BioRhyme Expanded", serif;
   font-size: 60px;
+  border-right: 2px solid white;
+  width: max-content;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+
+  animation: typewriter 1s steps(16);
 }
-.header-wrapper .header-text .job-title {
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: green;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.header-wrapper h2 {
   font-family: "Italiana", serif;
   font-size: 50px;
 }

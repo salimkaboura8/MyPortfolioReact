@@ -8,11 +8,11 @@ const Home = () => {
     <div className="header-wrapper">
       <div className="header-text">
         <h1 className="name-title">Salim Kaboura</h1>
-        <h1 className="job-title">
+        <h2 className="job-title">
           Web and Mobile Developer.
           <br />
           Graphic Designer.
-        </h1>
+        </h2>
         <p className="small-text">
           I’m a software engineering student, worked on various projects and
           freelancing. Welcome to my personal website where you discover my
