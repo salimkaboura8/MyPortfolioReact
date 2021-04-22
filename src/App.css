@@ -6,9 +6,6 @@ html {
   background-color: black;
 }
 
-body {
-  background-color: black;
-}
 .navbar {
   font-family: "Molengo", sans-serif;
   padding-left: 100px;
@@ -57,7 +54,7 @@ body {
 
 .header-wrapper .header-text .fab {
   background-color: white;
-  margin-left: 80%;
+  margin-left: 60vw;
 }
 .header-wrapper .header-text .arrow {
   padding: 25%;
@@ -87,7 +84,7 @@ body {
 }
 .header-wrapper h1 {
   font-family: "BioRhyme Expanded", serif;
-  font-size: 60px;
+  font-size: 4vw;
   width: max-content;
   text-align: center;
   white-space: nowrap;
@@ -117,13 +114,13 @@ body {
 }
 .header-wrapper h2 {
   font-family: "Italiana", serif;
-  font-size: 50px;
+  font-size: 4vw;
 }
 .header-wrapper .header-text .small-text {
   font-family: "Sura", serif;
   padding-top: 5%;
-  font-size: 20px;
-  padding-left: 25%;
+  font-size: 1.7vw;
+  padding-left: 20%;
   padding-right: 26%;
 }
 

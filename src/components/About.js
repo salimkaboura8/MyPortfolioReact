@@ -25,7 +25,7 @@ const About = () => {
             </p>
           </div>
           <div class="col-2">
-            <Link to="/About">
+            <Link to="/Contact">
               <Fab className="fab">
                 <img
                   className="arrow"

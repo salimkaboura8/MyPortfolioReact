@@ -11,6 +11,7 @@ const Skills = () => {
           <div class="grid">
             <div class="row">
               <div class="col myservices">My Skills</div>
+
               <div class="col">
                 <div class="row">Flutter</div>
                 <div class="row lines">
